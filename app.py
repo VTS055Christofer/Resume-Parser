@@ -1,13 +1,12 @@
 import os
 import warnings
 import en_core_web_sm
-import json
 from flask import Flask, request, jsonify
 from pyresparser import ResumeParser
 
 warnings.filterwarnings('ignore')
 
-#nlp = en_core_web_sm.load()
+nlp = en_core_web_sm.load()
 
 app = Flask(__name__)
 
@@ -61,4 +60,3 @@ def parse_resume():
 
 if __name__ == '__main__':
     app.run(debug=True)
-

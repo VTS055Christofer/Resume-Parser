@@ -1,4 +1,16 @@
+# PyPDF2
+# nltk
+# pyresparser
+# gunicorn
+# Flask
+# spacy
+
+
+
 PyPDF2
 nltk
 pyresparser
-gunicorn 
+gunicorn
+Flask
+spacy
+en_core_web_sm
