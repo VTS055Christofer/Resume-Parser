@@ -1,12 +1,3 @@
-# PyPDF2
-# nltk
-# pyresparser
-# gunicorn
-# Flask
-# spacy
-
-
-
 PyPDF2
 nltk
 pyresparser
