@@ -3,7 +3,8 @@ import warnings
 import en_core_web_sm
 from flask import Flask, request, jsonify
 from pyresparser import ResumeParser
-
+import nltk
+nltk.download('stopwords')
 warnings.filterwarnings('ignore')
 
 nlp = en_core_web_sm.load()
